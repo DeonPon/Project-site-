@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+}
+
+.header-background {
+    background-color: #e58f26; /* Темніший відтінок помаранчевого */
+    padding: 10px 20px;
+    display: inline-block; /* Фігура буде тільки під текстом */
+    border-radius: 5px; /* Заокруглені краї */
+    margin-bottom: 20px; /* Відступ після цього блоку */
+}
+
+.header-background h1 {
+    margin: 0;
+    font-size: 75px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap; /* Запобігає переносу тексту */
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.feature-btn {
+    background-color: #d48c2f; /* Помаранчевий фон */
+    color: rgb(0, 0, 0);
+    text-decoration: none; /* Прибираємо підкреслення */
+    padding: 10px 20px; /* Відступи */
+    font-weight: bold;
+    border-radius: 5px; /* Заокруглені краї */
+    transition: background-color 0.3s ease; /* Плавний перехід кольору */
+    display: inline-block;
+    margin: 5px;
+}
+
+.feature-btn:hover {
+    background-color: #a96b1a; /* Трохи темніший колір при наведенні */
+}
+
+.steps {
+    margin: 20px;
+    text-align: center;
+}
+
+.steps .step-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px; /* Зменшено відстань між картинками */
+    margin-top: 20px;
+}
+
+.step {
+    text-align: center;
+    flex: 1;
+}
+
+.step img {
+    width: 220px; /* Зменшено розмір картинок для кроків */
+    height: auto;
+}
+
+.levels {
+    margin: 60px;
+    text-align: center;
+}
+
+.level-images {
+    display: flex;
+    flex-direction: column; /* Картинки розташовані одна під одною */
+    gap: 20px; /* Відстань між картинками */
+    align-items: center;
+}
+
+.level {
+    width: 40%; /* Зменшено ширину для картинок рівнів */
+    height: auto;
+}
+
+.footer {
+    background-image: url('footer.png'); /* Ваша фотографія */
+    background-size: cover; /* Розтягнення фотографії на всю ширину */
+    background-position: center; /* Центрування фотографії */
+    height: 43px; /* Висота футера, яку можна коригувати за потребою */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.year {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px; /* Розташування тексту внизу футера */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Стилі для кнопок */
+.feature-btn {
+    background-color: #d48c2f; /* Помаранчевий фон */
+    color: rgb(0, 0, 0);
+    text-decoration: none; /* Прибираємо підкреслення */
+    padding: 10px 20px; /* Відступи */
+    font-weight: bold;
+    border-radius: 5px; /* Заокруглені краї */
+    transition: background-color 0.3s ease; /* Плавний перехід кольору */
+    display: inline-block;
+    margin: 5px;
+}
+
+.feature-btn:hover {
+    background-color: #a46616; /* Трохи темніший колір при наведенні */
+}
